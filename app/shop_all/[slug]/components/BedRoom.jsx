@@ -1,5 +1,3 @@
 import React from "react";
 
-export default function BedRoom() {
-  return <div>BedRoom</div>;
-}
+export default function BedRoom({ livingroomdata }) {}

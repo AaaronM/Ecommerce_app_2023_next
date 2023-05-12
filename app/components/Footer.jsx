@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <div>
+      <div className="p-5">
         <div className="p-5">
           <h3 className="text-[30px] mb-3 font-thin">What is Concepts </h3>
           <p className="text-gray-500 text-[13px] ">
@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
 
         {/* ___FOOTER____ */}
-        <div className="flex justify-evenly bg-[#7A827A]  text-[#D9CFB8]  py-5">
+        <div className="flex justify-evenly bg-[#7A827A]  text-[#D9CFB8]  py-[30px]">
           <div>
             <h3>Help</h3>
             <p>Contact US</p>
